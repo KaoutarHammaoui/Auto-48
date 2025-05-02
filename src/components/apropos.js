@@ -44,13 +44,13 @@ export default function Apropos() {
       {/**de la passion a la precesion div */}
       <div className='bg-[#222222] grid grid-cols-12 lg:mt-5 frstComp '>
          <div className='col-span-10 text-white text-justify translate-x-8 mt-3 lg:col-span-4 lg:translate-x-[42rem] lg:px-7 md:translate-x-[26rem] md:col-span-5 xl:translate-x-[52rem] PassionP'>
-              <p className='font-turretBold text-[20px] lg:text-[24px]'>
+         <p className='font-turretBold text-[20px] lg:text-[24px]'>
                 <span>De la </span>
-                <span className='bg-[#C81717] pl-2 pr-2 ' style={{clipPath:'polygon(20% 0%, 80% 0%, 100% 0, 93% 100%, 79% 100%, 20% 100%, 0 100%, 10% 0)'}}>passion</span>
+                <span className='bg-[#C81717] pl-2 pr-2 ' style={{clipPath:'polygon(20% 0%, 80% 0%, 100% 0, 93% 100%, 79% 100%, 20% 100%, 0 100%, 10% 0)',WebkitClipPath:"polygon(20% 0%, 80% 0%, 100% 0, 93% 100%, 79% 100%, 20% 100%, 0 100%, 10% 0)"}}>passion</span>
               </p>
               <p className='font-turretBold text-[20px]   '>
                 <span>à la </span>
-                <span  className='bg-[#C81717] pl-2 pr-2 ' style={{clipPath:'polygon(20% 0%, 80% 0%, 100% 0, 93% 100%, 79% 100%, 20% 100%, 0 100%, 10% 0)'}}>précision</span>
+                <span  className='bg-[#C81717] pl-2 pr-2 ' style={{clipPath:'polygon(20% 0%, 80% 0%, 100% 0, 93% 100%, 79% 100%, 20% 100%, 0 100%, 10% 0)',WebkitClipPath:"polygon(20% 0%, 80% 0%, 100% 0, 93% 100%, 79% 100%, 20% 100%, 0 100%, 10% 0)"}}>précision</span>
               </p>
               <p className='font-turret text-[10px] mt-3 lg:text-[14px]'>
               Chez AUTO48, notre aventure a commencé par une passion commune pour l’automobile et le désir d’offrir un service meilleur, plus fiable et plus transparent. Aujourd’hui, nous sommes une équipe de confiance, engagée à prendre soin de votre véhicule avec précision et professionnalisme.Chaque intervention est pour nous une promesse de qualité et de sérénité pour nos clients.
@@ -59,7 +59,7 @@ export default function Apropos() {
                 <img src='./pics/about/phoneicon.svg' className='scale-[0.6] mt-3'></img>
                 <div className='ml-16 -mt-10 uppercase mb-5'>
                   <p className='font-spaceMed text-[8px] tracking-[3px]'> Service client </p>
-                  <p className='font-space text-[12px]'>05 36 716 778 - 05 36 716 777</p>
+                  <p className='font-space text-[12px]'><a href="tel:0536716777">05 36 716 777 -</a> <a href="tel:0536716778">05 36 716 778</a> </p>
                 </div>
               </div>
               
@@ -343,68 +343,65 @@ export default function Apropos() {
         </div>
         <div className="flex gap-2 -mt-7 justify-center md:justify-center md:ml-0 lg:justify-center lg:ml-0 lg:gap-4 lg:mb-6   ">
            <a href="https://web.facebook.com/" target="_blank" className="relative z-30" >
-             <img src="./pics/fclogo.png" alt="" className="w-[38px] h-[38px] "/>
+             <img src="./pics/fclogoo.png" alt="" className="w-[38px] h-[38px] "/>
            </a>
           <a href="https://www.instagram.com/" target="_blank" className="relative z-30" >
-           <img src="./pics/instalogo.png" alt="" className="w-[38px] h-[38px] "/>
+           <img src="./pics/instalogoo.png" alt="" className="w-[38px] h-[38px] "/>
           </a>
           <a href="https://www.tiktok.com/login?lang=fr&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Dfr" target="_blank" rel="noopener noreferrer" className="relative z-30">
-          <img src="./pics/tiktoklogor.png" alt="" className="w-[38px] h-[38px] "/>
+          <img src="./pics/tiktoklogo.png" alt="" className="w-[38px] h-[38px] "/>
            </a>
         </div>
     </div>    
 
     {/*Second Layout */}
-   <div onClick={GoToTheTop} className="relative z-30"><img src="./pics/vectorgoup.png" alt="" className="cursor-pointer h-[58.36px] w-[57px] mt-4 lg:mt-6 lg:ml-[58rem]  lg:h-[77.6.36px] lg:w-[77.6px] md:ml-[44.5rem] md:mt-16 xl:ml-[75rem]  Vecposition"   /> </div> 
+    <div onClick={GoToTheTop} className="relative z-30 flex justify-end mr-2 translate-y-9"><img src="./pics/scrolltop.svg" alt="" className=" cursor-pointer h-[58.36px] w-[57px] mt-4 mb-8 lg:mt-6 lg:ml-[58rem]  lg:h-[77.6.36px] lg:w-[77.6px] md:ml-[44.5rem] md:mt-16 xl:ml-[75rem]  Vecposition"   /> </div> 
     <div className="flex gap-20 -mt-40 -ml-24 lg:ml-[42rem]  lg:mt-9 md:ml-60 xl:ml-[50rem] carposition ">
         <img src="./pics/carg.gif" alt="" className=" w-[180px] mt-[100px] ml-[6rem] lg:-mt-12  lg:ml-56  " />
         
     </div>
     {/**mobile layout */}
     
-    <div className="md:hidden lg:hidden xl:hidden 2xl:hidden  Mobile mt-[520px]" >
+    <div className="lg:hidden xl:hidden 2xl:hidden md:hidden Mobile mt-[520px] " >
         <div style= {{ backgroundImage: 'linear-gradient(to top, #151514, #640C0C)',clipPath: 'polygon(21% 0, 80% 0, 100% 14%, 100% 100%, 80% 100%, 15% 100%, 0 100%, 0 0)',
-    WebkitClipPath: 'polygon(21% 0, 80% 0, 100% 14%, 100% 100%, 80% 100%, 15% 100%, 0 100%, 0 0)'}} className="relative bg-no-repeat w-full mt-[27rem] z-0" >
+           WebkitClipPath: 'polygon(21% 0, 80% 0, 100% 14%, 100% 100%, 80% 100%, 15% 100%, 0 100%, 0 0)'}} className="relative bg-no-repeat w-full mt-[27rem] z-0 pb-2" >
         
-        <img src="./pics/fortyeightmobile.png" alt="" className="relative z-10 -mt-[31.5rem] -ml-[0.3rem] fortyeight " style={{top:"8rem"}} />
-        <div className="relative z-10 -mt-32 ml-[27.3px] Paragraphes   ">
-           <div className='md:ml-52 md:scale-150'>
+        <img src="./pics/fortyeightmobilee.png" alt="" className="relative z-10 -mt-[31.5rem] -ml-[0.3rem] fortyeight " style={{top:"8rem"}} />
+        <div className="relative z-10 -mt-32 ml-[27.3px] Paragraphes  ">
+           <div>
              <img src="./pics/mobile/whiteline.png" alt="" className="w-[227.4px]" />
              <p className="text-white text-[21.09px] font-neo mt-2">POUR NOUS JOINDRE </p>
              <p className="text-white font-turretBold text-[14.6px] uppercase">Découvrez des solutions abordables <br /> pour votre voiture!</p>
             </div> 
              
-            <div className="text-white md:ml-16 md:scale-120">
+            <div className="text-white">
                                  <p className="">
-                                  <img src="./pics/phoneicon.png" alt="" className="mt-10"/>
+                                  <img src="./pics/mobile/phoneicon.svg" alt="" className="mt-10"/>
                                   <p className="font-turretBold text-[19px] ml-20 -mt-[4.3rem]" style={{top:"5rem"}} >Appeler à tout moment</p>
-                                  <p className="ml-20 font-turret text-[15.04px]">05 36 716 777</p>
-                                  <p className="ml-20 font-turret text-[15.04px]" >05 36 716 778</p>
+                                  <p className="ml-20 font-turret text-[14px]"><a href="tel:0536716777">05 36 716 777</a></p>
+                                  <p className="ml-20 font-turret text-[14px]" ><a href="tel:0536716778">05 36 716 778</a></p>
                                  </p>
         
                                  <p className="mt-5">
-                                    <img src="./pics/emaillogo.png" alt="" />
+                                    <img src="./pics/mobile/mailicon.svg" alt="" />
                                     <p className="font-turretBold text-[19px] ml-20 -mt-[3.4rem]"  >Envoyer un e-mail</p>
-                                    <p  className="font-turret text-[15.04px] ml-20 "><a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCMjsNBwdlfMCZwFHDpcZtpwCKKbFtXmhgQKgRmNxVsZZrzWFQkjdlrzRKHhqGqNKjkmXv' target='_blank'> contact@auto48.ma</a></p>
+                                    <p  className="font-turret text-[14px] ml-20 "><a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCMjsNBwdlfMCZwFHDpcZtpwCKKbFtXmhgQKgRmNxVsZZrzWFQkjdlrzRKHhqGqNKjkmXv' target='_blank'> contact@auto48.ma</a></p>
                                  </p>
                                  
                                  <p className="mt-8">
-                                    <img src="./pics/locationl.png" alt="" />
+                                    <img src="./pics/mobile/locationicon.svg" alt="" />
                                     <p className="font-turretBold text-[19px] ml-20 -mt-[4rem]">Visitez-nous</p>
-                                    <p className="font-turret text-[15.04px] ml-20"  ><a href='https://www.google.com/maps/place/Auto+48+:+Atelier+m%C3%A9canique-g%C3%A9n%C3%A9rale,+%C3%A9lectricit%C3%A9-auto,+t%C3%B4lerie-peinture+%26+pneumatique/@34.7051759,-1.8875108,17z/data=!4m14!1m7!3m6!1s0xd78630d9a5f6fc5:0x296af64f87530946!2sZone+Industrielle!8m2!3d34.7051759!4d-1.8875108!16s%2Fg%2F11cnd481y2!3m5!1s0xd78630e47bffab1:0xb77799ac23563bf5!8m2!3d34.7057896!4d-1.883757!16s%2Fg%2F11gdtpvsbn?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D' target='_blank'>Rte d'Algérie lotis boustane 3 N° 191 <br /> Zone industrielle - Oujda </a></p>
+                                    <p className="font-turret text-[14px] ml-20"  ><a href='https://www.google.com/maps/place/Auto+48+:+Atelier+m%C3%A9canique-g%C3%A9n%C3%A9rale,+%C3%A9lectricit%C3%A9-auto,+t%C3%B4lerie-peinture+%26+pneumatique/@34.7051759,-1.8875108,17z/data=!4m14!1m7!3m6!1s0xd78630d9a5f6fc5:0x296af64f87530946!2sZone+Industrielle!8m2!3d34.7051759!4d-1.8875108!16s%2Fg%2F11cnd481y2!3m5!1s0xd78630e47bffab1:0xb77799ac23563bf5!8m2!3d34.7057896!4d-1.883757!16s%2Fg%2F11gdtpvsbn?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D' target='_blank'>Rte d'Algérie lotis boustane 3 N° 191 <br /> Zone industrielle - Oujda </a></p>
                                  </p>
             </div>
-
-           
-           
-            <div
+  <div
   className="relative bg-white z-0 bg-no-repeat bg-cover w-full min-h-[495px] py-2 h-fit px-6 -ml-4 mt-6 "
   style={{clipPath:"polygon(20% 0%, 96% 0, 100% 8%, 100% 100%, 80% 100%, 5% 100%, 0 96%, 0 0)"}}
   
 >
-<p className="flex w-[268.34px] ml-5 p-2 md:w-full md:justify-center">
+<p className="flex w-[268.34px] ml-5 p-2">
                 <img src="./pics/redline.png" className="h-[20px]" alt="" />
-                <p className="font-neo text-nowrap md:text-[16.38px] uppercase text-[#C81717] translate-x-[-12.2rem] md:translate-x-[-18.5rem] ">PARLEZ-NOUS</p>
+                <p className="font-neo text-[16.38px] uppercase text-[#C81717] -ml-[12.5rem]">PARLEZ-NOUS</p>
 </p>
  
 
@@ -415,42 +412,45 @@ export default function Apropos() {
       placeholder="Nom"
       value={LName}
       onChange={(e) => setLName(e.target.value)}
-      className="w-full p-3 border border-[#A2A6B0] outline-none rounded-tr-[11px] rounded-bl-[11px]  text-black placeholder-black md:w-full"
+      className="input w-full p-3 border border-[#A2A6B0] outline-none rounded-tr-[11px] rounded-bl-[11px]  text-black placeholder-black"
     />
     <input
       type="text"
       placeholder="Prénom"
       value={FName}
       onChange={(e) => setFName(e.target.value)}
-      className="w-full p-3 border border-[#A2A6B0] outline-none  rounded-tr-[11px] rounded-bl-[11px] custom-input"
+      className="input w-full p-3 border border-[#A2A6B0] outline-none  rounded-tr-[11px] rounded-bl-[11px] custom-input"
     />
     <input
       type="text"
       placeholder="Téléphone"
       value={phone}
       onChange={(e) => setPhone(e.target.value)}
-      className="w-full text-black p-3 border border-[#A2A6B0] outline-none  rounded-tr-[11px] rounded-bl-[11px] custom-input"
+      className="input w-full text-black p-3 border border-[#A2A6B0] outline-none  rounded-tr-[11px] rounded-bl-[11px] custom-input"
     />
     <textarea
       placeholder="Message"
       value={message}
       onChange={(e) => setMessage(e.target.value)}
-      className="w-full p-3 border border-[#A2A6B0] outline-none rounded-tr-[11px] rounded-bl-[11px] custom-input h-40 resize-none"
+      className="textarea w-full p-3 border border-[#A2A6B0] outline-none rounded-tr-[11px] rounded-bl-[11px] custom-input h-40 resize-none"
     />
     <button className="button bg-gradient-to-r from-[#C81717] to-[#700000] text-white px-4 py-2  shadow-md w-full " style={{clipPath:"polygon(20% 0%, 98% 0, 100% 22%, 100% 100%, 80% 100%, 3% 100%, 0 77%, 0 0)"}}>
       Envoyé
     </button>
   </form>
-  
+   
 </div> 
-<p className="text-[14.55px] bg-[#700000] uppercase font-turretBold text-white text-center mt-6"   style={{ backgroundColor: "transparent" }}><a href='https://softcactus.ma/' target='_blank'>© SOFTCACTUS, Tous les droits <br/> sont réservés, 2025</a></p>
-           </div>
-          
-        </div>
-
+<div className="mr-6 mb-5">
+  <p className="text-[14.55px] uppercase font-turretBold text-white text-center mt-6 "  >
+  <a href='https://softcactus.ma/' target='_blank'>
+     © SOFTCACTUS, Tous les droits <br/> sont réservés, 2025</a>
+  </p>
+</div>
+</div>
+</div>
+</div>
        {/**desktop form */}
-        </div>
-        <div className="hidden md:block lg:block relative lg:mt-28 lg:-ml-40 lg:w-full md:-mt-[32rem] md:-ml-20 ComponentOfForm" >
+       <div className="hidden md:block lg:block relative lg:mt-28 lg:-ml-40 lg:w-full md:-mt-[32rem] md:-ml-20 ComponentOfForm" >
         <div style= {{backgroundImage:'linear-gradient(135deg, #151514, #640C0C)',  clipPath: 'polygon(23% 0, 71% 0, 100% 51%, 100% 100%, 80% 100%, 15% 100%, 13% 100%, 13% 15%)',
                  WebkitClipPath: 'polygon(23% 0, 71% 0, 100% 51%, 100% 100%, 80% 100%, 15% 100%, 13% 100%, 13% 15%)'}} className="relative bg-no-repeat w-screen mt-[27rem] z-0 md:w-full  lg:w-screen lg:-mt-[16rem] lg:ml-20 lg:mr-4 " >
         
@@ -464,20 +464,20 @@ export default function Apropos() {
              
             <div className="text-white">
                                  <p className="">
-                                  <img src="./pics/phoneicon.png" alt="" className="mt-10 2xl:h-28 2xl:mt-16 "/>
+                                  <img src="./pics/mobile/phoneicon.svg" alt="" className="mt-10 2xl:h-28 2xl:mt-16 "/>
                                   <p className="font-turretBold text-[19.99px] md:text-[15.99px] ml-20 -mt-[4.3rem] lg:text-[20.98px] xl:text-[27.98px] 2xl:text-[34px] 2xl:ml-40 2xl:-mt-32  InfosTittles" style={{top:"5rem"}} >Appeler à tout moment</p>
-                                  <p className="ml-20 font-turret text-[16.04px]  md:text-[14px] lg:text-[16.83px] xl:text-[23.98px] 2xl:text-[27px] 2xl:ml-40 infosContent">05 36 716 777</p>
-                                  <p className="ml-20 font-turret text-[16.04px]  md:text-[14px] lg:text-[16.83px] xl:text-[23.98px] 2xl:text-[27px] 2xl:ml-40 infosContent" >05 36 716 778</p>
+                                  <p className="ml-20 font-turret text-[16.04px]  md:text-[14px] lg:text-[16.83px] xl:text-[23.98px] 2xl:text-[27px] 2xl:ml-40 infosContent"><a href="tel:0536716777">05 36 716 777</a></p>
+                                  <p className="ml-20 font-turret text-[16.04px]  md:text-[14px] lg:text-[16.83px] xl:text-[23.98px] 2xl:text-[27px] 2xl:ml-40 infosContent" ><a href="tel:0536716778">05 36 716 778</a></p>
                                  </p>
         
                                  <p className="mt-5">
-                                    <img src="./pics/emaillogo.png" alt="" className="2xl:h-28 2xl:mt-16"/>
+                                    <img src="./pics/mobile/mailicon.svg" alt="" className="2xl:h-28 2xl:mt-16"/>
                                     <p className="font-turretBold text-[19.99px] ml-20 -mt-[3.4rem] lg:text-[20.98px]  md:text-[15.99px] xl:text-[27.98px]  2xl:text-[34px] 2xl:ml-40 InfosTittles 2xl:-mt-28 "  >Envoyer un e-mail</p>
                                     <p  className="font-turret text-[16.04px] ml-20 lg:text-[16.83px]  md:text-[14px] xl:text-[23.98px] 2xl:text-[27px] 2xl:ml-40 infosContent"><a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCMjsNBwdlfMCZwFHDpcZtpwCKKbFtXmhgQKgRmNxVsZZrzWFQkjdlrzRKHhqGqNKjkmXv' target='_blank'> contact@auto48.ma</a></p>
                                  </p>
                                  
                                  <p className="mt-8">
-                                    <img src="./pics/locationl.png" alt="" className="2xl:h-28 2xl:mt-16" />
+                                    <img src="./pics/mobile/locationicon.svg" alt="" className="2xl:h-28 2xl:mt-16" />
                                     <p className="font-turretBold text-[19.99px] ml-20 -mt-[4rem] lg:text-[20.98px]  md:text-[15.99px] xl:text-[27.98px]  2xl:text-[34px] 2xl:ml-40  2xl:-mt-28 InfosTittles">Visitez-nous</p>
                                     <p className="font-turret text-[16.04px] ml-20 lg:text-[16.83px]  md:text-[14px] xl:text-[23.98px]  2xl:text-[27px] 2xl:ml-40 infosContent" ><a href='https://www.google.com/maps/place/Auto+48+:+Atelier+m%C3%A9canique-g%C3%A9n%C3%A9rale,+%C3%A9lectricit%C3%A9-auto,+t%C3%B4lerie-peinture+%26+pneumatique/@34.7051759,-1.8875108,17z/data=!4m14!1m7!3m6!1s0xd78630d9a5f6fc5:0x296af64f87530946!2sZone+Industrielle!8m2!3d34.7051759!4d-1.8875108!16s%2Fg%2F11cnd481y2!3m5!1s0xd78630e47bffab1:0xb77799ac23563bf5!8m2!3d34.7057896!4d-1.883757!16s%2Fg%2F11gdtpvsbn?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D' target='_blank'>Rte d'Algérie lotis boustane 3 N° 191 <br /> Zone industrielle - Oujda </a></p>
                                  </p> 
@@ -488,8 +488,8 @@ export default function Apropos() {
         </div>
 
   <div
-  className=" formm relative bg-white py-8 px-6 w-96 mx-auto lg:absolute lg:-right-20 lg:top-[33.5rem] md:z-20  md:w-[362.41px] md:-mt-[29.5rem]  md:ml-[31rem] md:h-[442px] lg:h-[476px] lg:w-[380px] xl:mr-4 xl:w-[450px] xl:h-[600px] lg:shadow-2xl"
-  style={{clipPath:"polygon(20% 0%, 96% 0, 100% 8%, 100% 100%, 80% 100%, 5% 100%, 0 96%, 0 0)",filter: "drop-shadow(0px 12px 40px rgba(0, 0, 0, 0.25))",}}
+  className=" formm relative bg-white py-8 px-6 w-96 mx-auto lg:absolute lg:-right-20 lg:top-[33.5rem] md:z-20  md:w-[362.41px] md:-mt-[29.5rem]  md:ml-[31rem] md:h-[442px] lg:h-[476px] lg:w-[380px] xl:mr-4 xl:w-[450px] xl:h-[600px] "
+  style={{clipPath:"polygon(20% 0%, 96% 0, 100% 8%, 100% 100%, 80% 100%, 5% 100%, 0 96%, 0 0)"}}
  >
 <p className="flex w-[268.34px] md:hidden ml-7 p-2 lg:hidden xl:hidden 2xl:hidden">
                 <img src="./pics/redline.png" className="lg:hidden w-[30px] h-[8px]" alt="" />
@@ -511,29 +511,29 @@ export default function Apropos() {
       placeholder="Nom"
       value={LName}
       onChange={(e) => setLName(e.target.value)}
-      className="w-full p-3 lg:p-4 border border-[#A2A6B0] outline-none rounded-tr-[11px] rounded-bl-[11px]  text-black placeholder-black"
+      className="input w-full p-3 lg:p-4 border border-[#A2A6B0] outline-none rounded-tr-[11px] rounded-bl-[11px]  text-black placeholder-black"
     />
     <input
       type="text"
       placeholder="Prénom"
       value={FName}
       onChange={(e) => setFName(e.target.value)}
-      className="w-full p-3 lg:p-4  border border-[#A2A6B0] outline-none  rounded-tr-[11px] rounded-bl-[11px] custom-input"
+      className="input w-full p-3 lg:p-4  border border-[#A2A6B0] outline-none  rounded-tr-[11px] rounded-bl-[11px] custom-input"
     />
     <input
       type="text"
       placeholder="Téléphone"
       value={phone}
       onChange={(e) => setPhone(e.target.value)}
-      className="w-full lg:p-4  text-black p-3 border border-[#A2A6B0] outline-none  rounded-tr-[11px] rounded-bl-[11px] custom-input"
+      className="input w-full lg:p-4  text-black p-3 border border-[#A2A6B0] outline-none  rounded-tr-[11px] rounded-bl-[11px] custom-input"
     />
     <textarea
       placeholder="Message"
       value={message}
       onChange={(e) => setMessage(e.target.value)}
-      className="w-full p-3 lg:p-4 border border-[#A2A6B0] outline-none rounded-tr-[11px] rounded-bl-[11px] custom-input h-32 resize-none"
+      className="textarea w-full p-3 lg:p-4 border border-[#A2A6B0] outline-none rounded-tr-[11px] rounded-bl-[11px] custom-input h-32 resize-none"
     />
-    <button className=".button bg-gradient-to-r from-[#C81717] to-[#700000] text-white px-4 py-2 shadow-md w-[313.51px] xl:w-[400px] " style={{clipPath:"polygon(20% 0%, 98% 0, 100% 22%, 100% 100%, 80% 100%, 3% 100%, 0 77%, 0 0)"}}>
+    <button className="button bg-gradient-to-r from-[#C81717] to-[#700000] text-white px-4 py-2 shadow-md w-[313.51px] xl:w-[400px] " style={{clipPath:"polygon(20% 0%, 98% 0, 100% 22%, 100% 100%, 80% 100%, 3% 100%, 0 77%, 0 0)"}}>
       Envoyé
     </button>
   </form>
@@ -541,7 +541,7 @@ export default function Apropos() {
 
 </div>
 
-        <p className="text-[#585858] md:text-[19.21px] md:mt-[4rem]   md:text-center uppercase md:font-turretBold lg:text-center lg:ml-60 xl:text-[23px]"><a href="https://softcactus.ma/" target="_blank">© SOFTCACTUS, Tous les droits sont réservés, 2025</a></p> <br/>
+        <p className="text-[#585858] md:text-[19.21px] md:mt-[2rem]   md:text-center uppercase md:font-turretBold lg:text-center lg:ml-60 xl:text-[23px] GrayRightsReserved "><a href="https://softcactus.ma/" target="_blank">© SOFTCACTUS, Tous les droits sont réservés, 2025</a></p> <br/>
         </div>
  </section>
    

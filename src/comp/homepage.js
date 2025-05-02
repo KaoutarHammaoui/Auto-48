@@ -36,12 +36,12 @@ export default function HomePga(){
         <div className="firstparagraphes grid ml-6 mr-7 mt-16 lg:ml-32 lg:mt-32  ">
             <div className="grid-cols-7 lg:col-span-4 ">
             <p className="font-neo lg:mr-32 font-[400] text-[16.1px]/[25.83px] text-[#320606] uppercase lg:text-[25.22px] xl:text-[29px] xl:tracking-[0.017em] leading-[36px] 2xl:text-[35px] 2xl:tracking-[0.025em] RepP" >Réparation et réglage <br /> automobile innovants.</p>
-            <p className="font-turret font-[500] text-[15px] text-[#323131] mt-3 lg:text-[18.02px] md:text-[14px] xl:text-[24px] 2xl:text-[30px] loremRep">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Donec dolor ante, posuere faucibus elit ut, aliquam.</p>
+            <p className="font-turret font-[500] text-[14.5px] text-[#323131] mt-3 lg:text-[18.02px] md:text-[14px] xl:text-[24px] 2xl:text-[30px] loremRep">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Donec dolor ante, posuere faucibus elit ut, aliquam.</p>
           
             <div className="relative p-3 ">
                 <div className="-ml-5 lg:mt-5 md:w-[350px]  ">
                     <div className="grid relative bg-white bg-no-repeat mr-2  lg:w-[465px]  border-[#A2A6B0] xl:w-[600px] 2xl:w-[660px] parDiv" style={{borderWidth:"1.1px"}}>
-                         <div className="col-span-5 m-4 mb-2  border-solid w-[44.49px] h-[44.49px] lg:w-[62px] lg:h-[62px] " ><img src="./pics/mecaniclogo.png" alt="" className="xl:w-[82px] xl:h-[82px] xl:mt-2 2xl:w-[102px] 2xl:h-[102px] 2xl:mt-3" /> </div>
+                         <div className="col-span-5 m-4 mb-2  border-solid w-[44.49px] h-[44.49px] lg:w-[62px] lg:h-[62px] " ><img src="./pics/mecaniclogoo.png" alt="" className="xl:w-[82px] xl:h-[82px] xl:mt-2 2xl:w-[102px] 2xl:h-[102px] 2xl:mt-3" /> </div>
                          <div className="ml-24 -mt-[58px] grid-cols-6">
                               <p className="font-turretBold text-[15px] text-[#3C2B1F] font-[800] uppercase lg:txet-[19.96px] xl:text-[23px] 2xl:text-[29px] loremTittle">LOREM IPSUM DOLOR</p>
                               <p className="font-turret text-[12px] mb-4 text-[#323131]  lg:txet-[14.41px] xl:text-[18px] 2xl:text-[24px] loremDesc ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor ante, posuere.</p>
@@ -51,7 +51,7 @@ export default function HomePga(){
 
                 <div className="-ml-5 bg-white mt-2 lg:mt-3 md:w-[350px]">
                     <div className="grid relative bg-white bg-no-repeat mr-2 lg:w-[465px] border-[#A2A6B0] xl:w-[600px] 2xl:w-[660px] parDiv" style={{borderWidth:"1.1px" }}>
-                         <div className="grid-cols-3 m-4 mb-2 border-solid w-[44.49px] h-[44.49px] lg:w-[62px] lg:h-[62px] " ><img src="./pics/secplogo.png" alt="" className="xl:w-[82px] xl:h-[82px] xl:mt-2  2xl:mt-3" /> </div>
+                         <div className="grid-cols-3 m-4 mb-2 border-solid w-[44.49px] h-[44.49px] lg:w-[62px] lg:h-[62px] " ><img src="./pics/secplogoo.png" alt="" className="xl:w-[82px] xl:h-[82px] xl:mt-2  2xl:mt-3" /> </div>
                           <div className="ml-24 -mt-[58px] grid-cols-6">
                                <p className="font-turretBold text-[15px] text-[#3C2B1F] font-[800] uppercase lg:txet-[19.96px] xl:text-[23px]  2xl:text-[29px] 2xl:ml-22 loremTittle">LOREM IPSUM DOLOR</p>
                               <p className="font-turret text-[12px] mb-4 text-[#323131] lg:txet-[14.41px] xl:text-[18px] 2xl:text-[24px] loremDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor ante, posuere.</p>
@@ -64,7 +64,7 @@ export default function HomePga(){
 
    <div className="lg:col-span-4 lg:w-[750px] lg:h-[320.65px] lg:mt-[5rem] lg:ml-3 xl:ml-48 xl:mt-[3rem] 2xl:ml-72  2xl:mt-24 ">
   <img
-    src="./pics/carpic.png"
+    src="./pics/carpicc.png"
     alt=""
     className="bigCarPosition 
       -ml-3 
@@ -80,23 +80,23 @@ export default function HomePga(){
 
 
     <div className="flex  mt-24 -ml-3 md:hidden" style={{clipPath:"polygon(20% 0%, 100% 0, 100% 25%, 100% 67%, 80% 100%, 20% 100%, 0 100%, 0 0)"}}>
-        <img src="./pics/mobile/patternright.png" alt="" className="-ml-[10px]" />
-        <img src="./pics/mobile/patternleft.png" alt="" className="ml-[36px]" style={{position:"relative",top:"-1rem"}} />
+        <img src="./pics/mobile/patternrightt.png" alt="" className="-ml-[10px]" />
+        <img src="./pics/mobile/patternleftt.png" alt="" className="ml-[36px]" style={{position:"relative",top:"-1rem"}} />
     </div>
 
    {/*imgs row, scroller */}
  <div className="w-full overflow-x-hidden -mt-[46rem] md:mt-11 ">
     <div className="flex w-max gap-6 animate-scrollLeft will-change-transform scrollbar-transparent lg:mt-9 xl:mt-16 scroller">
-        <img src="./pics/sixthimg.png" alt="" className="w-[200px] xl:w-[250px]" />
-        <img src="./pics/seventhimg.png" alt="" className="w-[200px] xl:w-[250px]"/>
-        <img src="./pics/eightimg.png" alt="" className="w-[200px] xl:w-[250px]" />
-        <img src="./pics/ninethimg.png" alt="" className="w-[200px] xl:w-[250px]" />
-        <img src="./pics/tenimg.png" alt="" className="w-[200px] xl:w-[250px]"/>
-        <img src="./pics/sixthimg.png" alt="" className="w-[200px] xl:w-[250px]"/>
-        <img src="./pics/seventhimg.png" alt="" className="w-[200px] xl:w-[250px]" />
-        <img src="./pics/eightimg.png" alt="" className="w-[200px] xl:w-[250px]"/>
-        <img src="./pics/ninethimg.png" alt="" className="w-[200px] xl:w-[250px]"/>
-        <img src="./pics/tenimg.png" alt="" className="w-[200px] xl:w-[250px]"/>
+        <img src="./pics/mobile/sixthimgg.png" alt="" className="w-[200px] xl:w-[250px]" />
+        <img src="./pics/mobile/seventhimgg.png" alt="" className="w-[200px] xl:w-[250px]"/>
+        <img src="./pics/mobile/eightimgg.png" alt="" className="w-[200px] xl:w-[250px]" />
+        <img src="./pics/mobile/ninethimgg.png" alt="" className="w-[200px] xl:w-[250px]" />
+        <img src="./pics/mobile/tenimgg.png" alt="" className="w-[200px] xl:w-[250px]"/>
+        <img src="./pics/mobile/sixthimgg.png" alt="" className="w-[200px] xl:w-[250px]"/>
+        <img src="./pics/mobile/seventhimgg.png" alt="" className="w-[200px] xl:w-[250px]" />
+        <img src="./pics/mobile/eightimgg.png" alt="" className="w-[200px] xl:w-[250px]"/>
+        <img src="./pics/mobile/ninethimgg.png" alt="" className="w-[200px] xl:w-[250px]"/>
+        <img src="./pics/mobile/tenimgg.png" alt="" className="w-[200px] xl:w-[250px]"/>
         
     </div>
  </div> 
@@ -112,29 +112,29 @@ export default function HomePga(){
         </div>
         <div className="flex gap-2 -mt-7 ml-[8.4rem] lg:ml-[36.5rem] lg:gap-4 lg:mb-6 md:ml-[15.5rem] xl:-mt-12 xl:ml-[37.2rem] socialmediaicons">
            <a href="https://web.facebook.com/" target="_blank" className="relative z-30" >
-             <img src="./pics/fclogo.png" alt="" className="w-[38px] h-[38px] "/>
+             <img src="./pics/fclogoo.png" alt="" className="w-[38px] h-[38px] "/>
            </a>
           <a href="https://www.instagram.com/" target="_blank" className="relative z-30" >
-           <img src="./pics/instalogo.png" alt="" className="w-[38px] h-[38px] "/>
+           <img src="./pics/instalogoo.png" alt="" className="w-[38px] h-[38px] "/>
           </a>
           <a href="https://www.tiktok.com/login?lang=fr&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Dfr" target="_blank" rel="noopener noreferrer" className="relative z-30">
-          <img src="./pics/tiktoklogor.png" alt="" className="w-[38px] h-[38px] "/>
+          <img src="./pics/tiktoklogo.png" alt="" className="w-[38px] h-[38px] "/>
            </a>
         </div>
     </div>    
 
     {/*Second Layout */}
-   <div onClick={GoToTheTop} className="relative z-30"><img src="./pics/vectorgoup.png" alt="" className="cursor-pointer h-[58.36px] w-[57px] mt-4 lg:mt-6 lg:ml-[58rem]  lg:h-[77.6.36px] lg:w-[77.6px] md:ml-[44.5rem] md:mt-16 xl:ml-[75rem]  Vecposition"   /> </div> 
+   <div onClick={GoToTheTop} className="relative z-30 flex justify-end mr-2 translate-y-9"><img src="./pics/scrolltop.svg" alt="" className=" cursor-pointer h-[58.36px] w-[57px] mt-4 mb-8 lg:mt-6 lg:ml-[58rem]  lg:h-[77.6.36px] lg:w-[77.6px] md:ml-[44.5rem] md:mt-16 xl:ml-[75rem]  Vecposition"   /> </div> 
     <div className="flex gap-20 -mt-40 -ml-24 lg:ml-[42rem]  lg:mt-9 md:ml-60 xl:ml-[50rem] carposition ">
         <img src="./pics/carg.gif" alt="" className=" w-[180px] mt-[100px] ml-[6rem] lg:-mt-12  lg:ml-56  " />
         
     </div>
 
-    <div className="lg:hidden xl:hidden 2xl:hidden md:hidden Mobile mt-[520px]" >
+    <div className="lg:hidden xl:hidden 2xl:hidden md:hidden Mobile mt-[520px] " >
         <div style= {{ backgroundImage: 'linear-gradient(to top, #151514, #640C0C)',clipPath: 'polygon(21% 0, 80% 0, 100% 14%, 100% 100%, 80% 100%, 15% 100%, 0 100%, 0 0)',
-    WebkitClipPath: 'polygon(21% 0, 80% 0, 100% 14%, 100% 100%, 80% 100%, 15% 100%, 0 100%, 0 0)'}} className="relative bg-no-repeat w-full mt-[27rem] z-0" >
+    WebkitClipPath: 'polygon(21% 0, 80% 0, 100% 14%, 100% 100%, 80% 100%, 15% 100%, 0 100%, 0 0)'}} className="relative bg-no-repeat w-full mt-[27rem] z-0 pb-2" >
         
-        <img src="./pics/fortyeightmobile.png" alt="" className="relative z-10 -mt-[31.5rem] -ml-[0.3rem] fortyeight " style={{top:"8rem"}} />
+        <img src="./pics/fortyeightmobilee.png" alt="" className="relative z-10 -mt-[31.5rem] -ml-[0.3rem] fortyeight " style={{top:"8rem"}} />
         <div className="relative z-10 -mt-32 ml-[27.3px] Paragraphes  ">
            <div>
              <img src="./pics/mobile/whiteline.png" alt="" className="w-[227.4px]" />
@@ -144,20 +144,20 @@ export default function HomePga(){
              
             <div className="text-white">
                                  <p className="">
-                                  <img src="./pics/phoneicon.png" alt="" className="mt-10"/>
+                                  <img src="./pics/mobile/phoneicon.svg" alt="" className="mt-10"/>
                                   <p className="font-turretBold text-[19px] ml-20 -mt-[4.3rem]" style={{top:"5rem"}} >Appeler à tout moment</p>
-                                  <p className="ml-20 font-turret text-[15.04px]">05 36 716 777</p>
-                                  <p className="ml-20 font-turret text-[15.04px]" >05 36 716 778</p>
+                                  <p className="ml-20 font-turret text-[15.04px]"><a href="tel:0536716777">05 36 716 777</a></p>
+                                  <p className="ml-20 font-turret text-[15.04px]" ><a href="tel:0536716778">05 36 716 778</a></p>
                                  </p>
         
                                  <p className="mt-5">
-                                    <img src="./pics/emaillogo.png" alt="" />
+                                    <img src="./pics/mobile/mailicon.svg" alt="" />
                                     <p className="font-turretBold text-[19px] ml-20 -mt-[3.4rem]"  >Envoyer un e-mail</p>
                                     <p  className="font-turret text-[15.04px] ml-20 "><a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCMjsNBwdlfMCZwFHDpcZtpwCKKbFtXmhgQKgRmNxVsZZrzWFQkjdlrzRKHhqGqNKjkmXv' target='_blank'> contact@auto48.ma</a></p>
                                  </p>
                                  
                                  <p className="mt-8">
-                                    <img src="./pics/locationl.png" alt="" />
+                                    <img src="./pics/mobile/locationicon.svg" alt="" />
                                     <p className="font-turretBold text-[19px] ml-20 -mt-[4rem]">Visitez-nous</p>
                                     <p className="font-turret text-[15.04px] ml-20"  ><a href='https://www.google.com/maps/place/Auto+48+:+Atelier+m%C3%A9canique-g%C3%A9n%C3%A9rale,+%C3%A9lectricit%C3%A9-auto,+t%C3%B4lerie-peinture+%26+pneumatique/@34.7051759,-1.8875108,17z/data=!4m14!1m7!3m6!1s0xd78630d9a5f6fc5:0x296af64f87530946!2sZone+Industrielle!8m2!3d34.7051759!4d-1.8875108!16s%2Fg%2F11cnd481y2!3m5!1s0xd78630e47bffab1:0xb77799ac23563bf5!8m2!3d34.7057896!4d-1.883757!16s%2Fg%2F11gdtpvsbn?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D' target='_blank'>Rte d'Algérie lotis boustane 3 N° 191 <br /> Zone industrielle - Oujda </a></p>
                                  </p>
@@ -209,9 +209,14 @@ export default function HomePga(){
       Envoyé
     </button>
   </form>
-  
+   
 </div> 
-<p className="text-[14.55px] bg-[#700000] uppercase font-turretBold text-white text-center mt-6"   style={{ backgroundColor: "transparent" }}><a href='https://softcactus.ma/' target='_blank'>© SOFTCACTUS, Tous les droits <br/> sont réservés, 2025</a></p>
+<div className="mr-6 mb-5">
+  <p className="text-[14.55px] uppercase font-turretBold text-white text-center mt-6 "  >
+  <a href='https://softcactus.ma/' target='_blank'>
+     © SOFTCACTUS, Tous les droits <br/> sont réservés, 2025</a>
+  </p>
+</div>
            </div>
           
         </div>
@@ -245,20 +250,20 @@ export default function HomePga(){
              
             <div className="text-white">
                                  <p className="">
-                                  <img src="./pics/phoneicon.png" alt="" className="mt-10 2xl:h-28 2xl:mt-16 "/>
+                                  <img src="./pics/mobile/phoneicon.svg" alt="" className="mt-10 2xl:h-28 2xl:mt-16 "/>
                                   <p className="font-turretBold text-[19.99px] md:text-[15.99px] ml-20 -mt-[4.3rem] lg:text-[20.98px] xl:text-[27.98px] 2xl:text-[34px] 2xl:ml-40 2xl:-mt-32  InfosTittles" style={{top:"5rem"}} >Appeler à tout moment</p>
-                                  <p className="ml-20 font-turret text-[16.04px]  md:text-[14px] lg:text-[16.83px] xl:text-[23.98px] 2xl:text-[27px] 2xl:ml-40 infosContent">05 36 716 777</p>
-                                  <p className="ml-20 font-turret text-[16.04px]  md:text-[14px] lg:text-[16.83px] xl:text-[23.98px] 2xl:text-[27px] 2xl:ml-40 infosContent" >05 36 716 778</p>
+                                  <p className="ml-20 font-turret text-[16.04px]  md:text-[14px] lg:text-[16.83px] xl:text-[23.98px] 2xl:text-[27px] 2xl:ml-40 infosContent"><a href="tel:0536716777">05 36 716 777</a></p>
+                                  <p className="ml-20 font-turret text-[16.04px]  md:text-[14px] lg:text-[16.83px] xl:text-[23.98px] 2xl:text-[27px] 2xl:ml-40 infosContent" ><a href="tel:0536716778">05 36 716 778</a></p>
                                  </p>
         
                                  <p className="mt-5">
-                                    <img src="./pics/emaillogo.png" alt="" className="2xl:h-28 2xl:mt-16"/>
+                                    <img src="./pics/mobile/mailicon.svg" alt="" className="2xl:h-28 2xl:mt-16"/>
                                     <p className="font-turretBold text-[19.99px] ml-20 -mt-[3.4rem] lg:text-[20.98px]  md:text-[15.99px] xl:text-[27.98px]  2xl:text-[34px] 2xl:ml-40 InfosTittles 2xl:-mt-28 "  >Envoyer un e-mail</p>
                                     <p  className="font-turret text-[16.04px] ml-20 lg:text-[16.83px]  md:text-[14px] xl:text-[23.98px] 2xl:text-[27px] 2xl:ml-40 infosContent"><a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCMjsNBwdlfMCZwFHDpcZtpwCKKbFtXmhgQKgRmNxVsZZrzWFQkjdlrzRKHhqGqNKjkmXv' target='_blank'> contact@auto48.ma</a></p>
                                  </p>
                                  
                                  <p className="mt-8">
-                                    <img src="./pics/locationl.png" alt="" className="2xl:h-28 2xl:mt-16" />
+                                    <img src="./pics/mobile/locationicon.svg" alt="" className="2xl:h-28 2xl:mt-16" />
                                     <p className="font-turretBold text-[19.99px] ml-20 -mt-[4rem] lg:text-[20.98px]  md:text-[15.99px] xl:text-[27.98px]  2xl:text-[34px] 2xl:ml-40  2xl:-mt-28 InfosTittles">Visitez-nous</p>
                                     <p className="font-turret text-[16.04px] ml-20 lg:text-[16.83px]  md:text-[14px] xl:text-[23.98px]  2xl:text-[27px] 2xl:ml-40 infosContent" ><a href='https://www.google.com/maps/place/Auto+48+:+Atelier+m%C3%A9canique-g%C3%A9n%C3%A9rale,+%C3%A9lectricit%C3%A9-auto,+t%C3%B4lerie-peinture+%26+pneumatique/@34.7051759,-1.8875108,17z/data=!4m14!1m7!3m6!1s0xd78630d9a5f6fc5:0x296af64f87530946!2sZone+Industrielle!8m2!3d34.7051759!4d-1.8875108!16s%2Fg%2F11cnd481y2!3m5!1s0xd78630e47bffab1:0xb77799ac23563bf5!8m2!3d34.7057896!4d-1.883757!16s%2Fg%2F11gdtpvsbn?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D' target='_blank'>Rte d'Algérie lotis boustane 3 N° 191 <br /> Zone industrielle - Oujda </a></p>
                                  </p> 
@@ -318,12 +323,7 @@ export default function HomePga(){
       Envoyé
     </button>
   </form>
-  <div 
-  className="reservedRightsP text-[15.55px] uppercase font-turretBold text-white text-center mt-7 cursor-pointer block md:hidden lg:hidden xl:hidden 2xl:hidden"
-  onClick={() => window.open('https://softcactus.ma/', '_blank')}
->
-  © SOFTCACTUS, Tous les droits sont réservés, 2025
-</div>
+ 
 
 </div>
 
